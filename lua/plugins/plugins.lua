@@ -43,17 +43,12 @@ return {
             require("plugins.treesitter")
         end,
     },
-    -- Neo-tree
+    -- mini-files
     {
-        "nvim-neo-tree/neo-tree.nvim",
-        branch = "v3.x",
-        dependencies = {
-            "nvim-lua/plenary.nvim",
-            "nvim-tree/nvim-web-devicons",
-            "MunifTanjim/nui.nvim",
-        },
+        "echasnovski/mini.files",
+        version = "*",
         config = function()
-            require("plugins.neotree")
+            require("plugins.mini-files")
         end,
     },
     -- mini.pairs

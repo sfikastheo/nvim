@@ -12,7 +12,6 @@ require("mason-lspconfig").setup({
         "lua_ls",
         "pylsp",
         "gopls",
-        "ocamllsp",
         "rust_analyzer",
     },
 })
